@@ -1,74 +1,62 @@
 .header {
-	display: flex;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 58px;
 }
 
 .header__logo {
-	display: inline-flex;
-	width: 166px;
+  display: inline-flex;
+  width: 166px;
   height: 51px;
   margin-left: 42.72px;
   margin-right: 210px;
 }
 
-.header__nav, .menu {
-	display: inline-flex;
-	justify-content: flex-start;
-	align-items: center;
-	font: normal 600 15px/18px Monospace;
-	margin-right: 20px;
-	transition: opasity .5s;
-	/*padding: 40px 0;*/
+.header__nav
+.menu {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  font: normal 600 15px/18px Monospace;
+  margin-right: 20px;
+  transition: opasity 0.5s;
 }
 
 .header__nav {
-	margin-right: 250px;
+  margin-right: 250px;
 }
 
 .burger-menu {
-	padding: 42px 60px 42px 30px;
-	width: 24px;
+  padding: 42px 60px 42px 30px;
+  width: 24px;
   height: 15px;
 }
 
-.header__nav_link::last-child {
-  margin-right: 0;
-}
+/*.header__nav_link::last-child {*/
+  /*margin-right: 0;*/
+/*}*/
 
 .header__nav_link {
 	display: flex;
-	position: relative;
-	justify-content: space-around;
-	/*padding: 0 20px 6px 0;*/
-	margin-right: 20px;
-	margin-bottom: 6px;
-	text-decoration: none;
-	color: #000;
+  position: relative;
+  justify-content: space-around;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #000;
 	transition: opasity .5s;
 }
 
 .header__nav_link_active::after {
   position: absolute;
-	display: block;
-	content:"";
-	left: 0;
-	width: 100%;
+  display: block;
+  content:"";
+  left: 0;
+  width: 100%;
   height: 2px;
   top: 20px;
-  background: #E51937;
-}
-
-.header__nav_link:hover:after {
-	position: absolute;
-	left: 0;
-	display: block;
-	content: "";
-	width: 100%;
-	height: 2px;
-	top: 20px;
-	background: #E51937;
+  background: #e51937;
 }
 
 .header__nav_link:after {
@@ -80,21 +68,33 @@
 	height: 2px;
 	top: 20px;
 	background: #E51937;
-	opacity: 0;
+  opacity: 0;
 	transition: opasity .5s;
 }
 
 .header__nav_link:hover {
-	opacity:.5;
-	color: red;
+  opacity: 0.5;
+  color: red;
 }
 
-.header__nav_link:hover:after, .header__nav_link_active:after {
-	opacity: 1;	
+.header__nav_link:hover:after {
+  position: absolute;
+	left: 0;
+	display: block;
+	content: "";
+	width: 100%;
+  height: 2px;
+  top: 20px;
+  background: #e51937;
+}
+
+.header__nav_link:hover:after
+.header__nav_link_active:after {
+  opacity: 1;	
 }
 
 .main__h1 {
-	font: normal 600 90px/110px Montserrat;
+  font: normal 600 90px/110px Montserrat;
   display: flex;
   justify-content: center;
   margin-bottom: 9px;
