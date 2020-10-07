@@ -13,7 +13,8 @@
   margin-right: 210px;
 }
 
-.header__nav, .menu {
+.header__nav, 
+.menu {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
@@ -44,13 +45,13 @@
   margin-bottom: 6px;
   text-decoration: none;
   color: #000;
-  transition: opasity 0.5s;
+  transition: opasity .5s;
 }
 
 .header__nav_link_active::after {
   position: absolute;
   display: block;
-  content: "";
+  content:"";
   left: 0;
   width: 100%;
   height: 2px;
@@ -59,16 +60,16 @@
 }
 
 .header__nav_link:after {
-	position: absolute;
+  position: absolute;
   left: 0;
   display: block;
   content: "";
   width: 100%;
   height: 2px;
   top: 20px;
-  background: #e51937;
+  background: #E51937;
   opacity: 0;
-  transition: opasity 0.5s;
+  transition: opasity .5s;
 }
 
 .header__nav_link:hover {
@@ -78,10 +79,10 @@
 
 .header__nav_link:hover:after {
   position: absolute;
-	left: 0;
+  left: 0;
   display: block;
   content: "";
-	width: 100%;
+  width: 100%;
   height: 2px;
   top: 20px;
   background: #e51937;
@@ -89,7 +90,7 @@
 
 .header__nav_link:hover:after
 .header__nav_link_active:after {
-  opacity: 1;	
+  opacity: 1; 
 }
 
 .main__h1 {
@@ -100,17 +101,17 @@
 }
 
 .main__p {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   font: normal 500 15px/18px Montserrat;
-  margin-bottom: 26px;
+  margin-bottom: 26px; 
 }
 
 .main__tesla-img {
-	display: flex;
-	justify-content: center;
-	/*position: relative;*/
-  width: 968px;
+  display: flex;
+  justify-content: center;
+  /*position: relative;*/
+  width: 968px;;
   height: 450px;
   left: 199px;
 }
@@ -122,8 +123,8 @@
 }
 
 .main__parametrs {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 52px;
 }
 
@@ -140,21 +141,22 @@
 }
 
 .main__button_order {
-	display: inline-block;
-	width: 147px;
+  display: inline-block;
+  width: 147px;
   height: 24px;
   text-decoration: none;
-	text-align: center;
-	font: normal 700 13px/16px Montserrat ;
+  text-align: center;
+  font: normal 700 13px/16px Montserrat ;
   color: #E51937;
   text-transform: uppercase;
   padding:11px 7px;
-	border: 4px solid #E51937;
-	transition: opasity 0.5s;
+  border: 4px solid #E51937;
+  transition: opasity .5s;
+
 }
 
 .main__button_order:hover {
-	opacity: 0.5;
+  opacity:.5;
 }
 
 .main__vector {
@@ -163,27 +165,49 @@
 }
 
 .main__vector-img {
-	width: 28px;
+  width: 28px;
   height: 14px;
 }
 
 @media (max-width: 768px) {
-	.header__nav_link {
-		display: none;
-	}
+  .header__nav_link {
+    display: none;
+  }
 
-	.header__logo {
-		margin-bottom: 30px;
-	}
+  .header__logo {
+    margin-bottom: 30px;
+    padding: 5px 190px 30px 2px;
+    margin-left: 0;
+    /*margin-right: 100px;*/
+  }
 
-	.main__h1 {
-	  font: Montserrat 600 50px/61px;
-		width: 206px;
+  .main__h1 {
+    margin-left: 100%;
+    font: normal 600 50px/61px Montserrat;
+    width: 206px;
     height: 61px;
-	}
+    
+  }
 
-	.main__tesla-img {
-		width: 357px;
-    height: 166px;
-	}
+  .main__p {
+    margin-left: 100%;
+    margin-bottom: 8px;
+    font: normal 500 10px/12px Montserrat;
+    width: 161px;
+    height: 13px;
+    
+  }
+
+  .main__section {
+    margin-right: 0;
+    background-size: contain, contain;
+    /*background-position: center, center;*/
+  }
+
+  .burger-menu__img {
+    margin-right: 0;
+    width: 24px;
+    height: 15px;
+  }
+ 
 }
