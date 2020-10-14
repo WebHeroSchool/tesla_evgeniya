@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Montserrat;
-  font-size: 15px;
-  font-style: normal;
+  font: normal 15px Montserrat, Arial, Helvetica;
+  /*font-size: 15px;*/
+  /*font-style: normal;*/
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
 }
 
 .header__nav {
-  padding: 0px 0 3px 81px;
+  padding: 0 0 3px 81px;
   margin: 0;
 }
 
@@ -41,14 +41,14 @@ body {
   color: red;
 }
 
-.header__menu-link:hover {
-  opacity: 0.5;
-  color: red;
-}
-
 .header__menu-link {
   margin-left: 35px;
   text-decoration: none;
+}
+
+.header__menu-link:hover {
+  opacity: 0.5;
+  color: red;
 }
 
 .header__nav-link_active {
@@ -84,10 +84,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  height: 739px;
+  background: url(img/main__background.svg) top, url(img/main-tesla.svg) 42%;
+  background-repeat: no-repeat;
 }
 
 .main__model {
-  display:block;
+  display: block;
   margin: 0;
 }
 
@@ -159,27 +162,31 @@ body {
   width: 162px;
   height: 40px;
   color: #e51937;
-  font: normal 700 17px/16px Montserrat;
+  font: normal 700 17px/16px;
   box-sizing: border-box;
   margin-top: 49px;
   padding: 9px 5px 0 0;
   margin-right: 10px;
 }
 
-@media(max-width: 1023px) {
+@media (max-width: 1023px) {
   .header__nav {
     display: none;
   }
+
   .header__menu-link {
     display: none;
   }
+
   .header__menu-link_burger {
     display: block;
   }
+
   .header__burger-button {
     width: 35px;
     height: 22px;
   }
+
   .main__section {
     background-size: 100%, 90%;
   }
@@ -187,19 +194,22 @@ body {
 
 @media(max-width: 768px) {
   .header__logo {
-    padding: 0px 0px 0 15px;
+    padding: 0 0 0 15px;
   }
+
   .main__section {
-    padding: 0 0 0px 9px;
+    padding: 0 0 0 9px;
     background: url(img/main__background_m.svg) 50% 20%, url(img/main-tesla.svg) center;
     background-repeat: no-repeat;
     background-size: 100%, 92%;
   }
+
   .main__h1{
-    padding: 0px 11px 2px 0px;
+    padding: 0 11px 2px 0;
   }
+
   .main__p {
-    padding: 0 0 0px 0px;
+    padding: 0;
     font-size: 19px;
     height: 22px;
     width: 748px;
@@ -213,7 +223,7 @@ body {
   }
 
   .header__menu {
-    padding: 0 31px 0 0px;
+    padding: 0 31px 0 0;
   }
 
   .main__parametrs {
@@ -223,14 +233,13 @@ body {
     justify-content: flex-start;
     margin-right: 19px;
     margin-bottom: 17px;
-
-}
+  }
 
   .main__vector {
     display: flex;
     justify-content: center;
-    padding: 0 6px 0px 0px;
-}
+    padding: 0 6px 0 0;
+  }
 
   .main__speed {
     background-image: url(img/iPad3.jpg);
@@ -238,21 +247,21 @@ body {
     width: 282px;
     height: 124px;
     margin-left: 95px;
-    padding: 0 0px 15px 0;
-}
+    padding: 0 0 15px 0;
+  }
 
   .main__power-reserve {
     background-image: url(img/iPad4.jpg);
     background-repeat: no-repeat;
     width: 242px;
-}
+  }
 
   .main__test-drive {
     background-image: url(img/iPad6.jpg);
     background-repeat: no-repeat;
     margin-left: 137px;
     width: 225px;
-}
+  }
 
   .main__button_order {
     text-align: center;
@@ -262,37 +271,42 @@ body {
     width: 222px;
     height: 55px;
     color: #fff;
-    font: normal 700 16px/20px Montserrat;
+    font: normal 700 16px/20px;
     box-sizing: border-box;
     margin-top: 26px;
     padding: 15px 0px 0px 2px;
     margin-right: 10px;
-}
+  }
 }
 
-@media(max-width: 375px) {
+@media (max-width: 375px) {
   .header__logo {
     margin-right: 135px;
     width: 138px;
     height: 42px;
     padding: 0;
   }
+
   .header__burger-button {
     width: 24px;
     height: 15px;
   }
+
   .header {
     padding: 3px 0 0 0;
     margin-bottom: 31px;
   }
+
   .header__logo_img {
     width: 138px;
     padding: 0;
   }
+
   .header__menu-link_burger{
     width: 24px;
     padding: 3px 0 0 20px;
   }
+
   .main__h1 {
     font-size: 50px;
     line-height: 61px;
@@ -300,6 +314,7 @@ body {
     height: 59px;
     margin-right: 5px;
   }
+
   .main__p {
     padding: 0;
     font-size: 12px;
@@ -307,8 +322,9 @@ body {
     margin-right: 11px;
     margin-bottom: 198px;
   }
+
   .main__section {
-    padding: 0 0 0px 9px;
+    padding: 0 0 0 9px;
     background: url(img/main_background_375.svg) 50% 13%, url(img/main-tesla.svg) 46% 21%;
     background-repeat: no-repeat;
     background-size: 100%, 95%;
@@ -354,19 +370,19 @@ body {
     font: normal 700 13px/16px Montserrat;
     box-sizing: border-box;
     margin-top: 13px;
-    padding: 9px 0px 0px 0px;
+    padding: 9px 0 0 0;
     margin-right: 0;
-}
+  }
 
   .main__vector {
     display: flex;
     justify-content: center;
     padding: 0 5px 0px 0px;
-}
+  }
 
   .main__parametrs {
     margin-bottom: 26px;
-}
+  }
 }
 
 
