@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font: normal 15px Montserrat, Arial, Helvetica;
-  /*font-size: 15px;*/
-  /*font-style: normal;*/
 }
 
 .header {
@@ -115,13 +113,6 @@ body {
   justify-content: center;
 }
 
-.main__section {
-  display: flex;
-  height: 739px;
-  background: url(img/main__background.svg) top, url(img/main-tesla.svg) 42%;
-  background-repeat: no-repeat;
-}
-
 .main__parametrs {
   display: flex;
   justify-content: flex-start;
@@ -204,7 +195,7 @@ body {
     background-size: 100%, 92%;
   }
 
-  .main__h1{
+  .main__h1 {
     padding: 0 11px 2px 0;
   }
 
@@ -274,7 +265,7 @@ body {
     font: normal 700 16px/20px;
     box-sizing: border-box;
     margin-top: 26px;
-    padding: 15px 0px 0px 2px;
+    padding: 15px 0 0 2px;
     margin-right: 10px;
   }
 }
@@ -302,7 +293,7 @@ body {
     padding: 0;
   }
 
-  .header__menu-link_burger{
+  .header__menu-link_burger {
     width: 24px;
     padding: 3px 0 0 20px;
   }
@@ -338,7 +329,7 @@ body {
     height: 92px;
     margin-left: 229px;
     margin-right: 31px;
-    padding: 0 0px 15px 0;
+    padding: 0 0 15px 0;
   }
 
   .main__power-reserve {
@@ -347,7 +338,7 @@ body {
     background-repeat: no-repeat;
     width: 137px;
     height: 108px;
-}
+  }
 
   .main__test-drive {
     background-image: url(img/Mobile6.jpg);
@@ -367,7 +358,7 @@ body {
     width: 160px;
     height: 41px;
     color: #fff;
-    font: normal 700 13px/16px Montserrat;
+    font: normal 700 13px/16px;
     box-sizing: border-box;
     margin-top: 13px;
     padding: 9px 0 0 0;
@@ -377,13 +368,15 @@ body {
   .main__vector {
     display: flex;
     justify-content: center;
-    padding: 0 5px 0px 0px;
+    padding: 0 5px 0 0;
   }
 
   .main__parametrs {
     margin-bottom: 26px;
   }
 }
+
+
 
 
 
