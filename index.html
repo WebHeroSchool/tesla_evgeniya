@@ -3,9 +3,9 @@
 <head>
   <title>Tesla</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <link rel="stylesheet" href="fonts.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
@@ -13,42 +13,42 @@
       <img src="img/tesla-logo.png" class="header__logo_img">
     </div>
     <nav class="header__nav">
-      <a href="#" class="header__nav_link header__nav_link_active"> Model S </a>
-      <a href="#" class="header__nav_link"> Model X </a>
-      <a href="#" class="header__nav_link"> Model 3 </a>
-      <a href="#" class="header__nav_link "> Roadster </a>
-      <a href="#" class="header__nav_link"> Energy </a>
+      <a href="#" class="header__nav-link header__nav-link_ms header__nav-link_active"> Model S </a>
+      <a href="#" class="header__nav-link header__nav-link_mx"> Model X </a>
+      <a href="#" class="header__nav-link header__nav-link_m3"> Model 3 </a>
+      <a href="#" class="header__nav-link header__nav-link_r "> Roadster </a>
+      <a href="#" class="header__nav-link header__nav-link_e"> Energy </a>
     </nav>  
-    <div class="menu">    
-      <a href="#" class="header__nav_link"> Магазин </a>
-      <a href="#" class="header__nav_link"> Войти </a>
-    </div>
-    <div class="burger-menu">
-      <img src="img/burger.png" class="burger-menu__img">
+    <div class="header__menu">    
+      <a href="#" class="header__menu-link"> Магазин </a>
+      <a href="#" class="header__menu-link"> Войти </a>
+      <a href="" class="header__menu-link header__menu-link_burger">
+        <img src="img/burger.png" class="header__burger-button"></a>
     </div>
   </header>
   <main class="main__section">
     <div class="main__model">
       <h1 class="main__h1"> Model S </h1>
       <p class="main__p"> Добро пожаловать в будущее! </p>
-      <div class="main__tesla-img">  </div>
-    </div>  
+      <div class="main__tesla-img"></div>
     <div class="main__parametrs">
-      <div class="main__speed">
-        <img class="speed__vector" src="img/27c.png">
+      <div class="main__parametrs-n">
+       <div class="main__speed">
+          <div class="speed__vector"></div>
+        </div>
+      </div>   
+        <div class="main__power-reserve"> 
+          <div class="power-reserve__img"></div>
+        </div>
+        <div class="main__test-drive">  
+          <div class="test-drive__img"></div>
+        </div>
+        <a class="main__button_order" href="#"> ЗАКАЗАТЬ </a>
       </div>
-      <div class="main__power-reserve"> 
-        <img class="power-reserve__img" src="img/632.png">
-      </div>
-      <div class="main__test-drive">  
-        <img class="test-drive__img" src="img/тест.png"> 
-      </div>
-      <a class="main__button_order" href="#"> Заказать </a>
-    </div>
-    <div class="main__vector">
-      <img class="main__vector-img" src="img/vector.svg"> 
-    </div>
-    
+      <div class="main__vector">
+        <img class="main__vector-img" src="img/vector.svg"> 
+      </div> 
+    </div>  
   </main>   
   <section class="section">
     <div class="section__model">
