@@ -450,7 +450,7 @@ body {
     width: 88%;
     height: 100%;
     color: #fff;
-    font: normal 700 13px/16px 'Montserrat';
+    font: normal 700 13px/16px;
     margin-top: 2px;
     padding: 8px 7px 9px 6px;
   }
