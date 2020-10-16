@@ -129,7 +129,6 @@ body {
 .main__parametrs-v {
   display: flex;
   width: 100%;
-  padding: 8px 0 0 0;
 }
 
 .main__parametrs-m {
@@ -417,7 +416,7 @@ body {
 
   .main__parametrs-m {
     max-width: 358px;
-    margin: 0;
+    margin: 0 auto;
     padding: 2px 0 0 0;
   }
 
