@@ -1160,6 +1160,7 @@ body {
   .section__safety_star {
     min-height: 607px;
     padding: 5px;
+    min-height: 290px;
   }
 
   .section__safety_info {
@@ -1171,10 +1172,6 @@ body {
 
   .section__safety_h4 {
     padding: 6px 0 14px 0;
-  }
-
-  .section__safety_star {
-    min-height: 290px;
   }
 
   .section__safety {
