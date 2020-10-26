@@ -374,7 +374,7 @@ body {
   margin: 0;
   padding: 0 0 0 68px;
 }
- 
+
 .parametr__volume_text-norm {
   font-weight: 600;
   font-size: 20px;
@@ -526,7 +526,7 @@ body {
 }
 
 .section__safety-ratig-parametrs_stars {
-  margin:0;
+  margin: 0;
 }
 
 .section__safety-ratig-parametrs_t {
@@ -970,8 +970,6 @@ body {
     align-items: center;
     text-transform: uppercase;
   }
-    
-
 }
 
 @media (max-width: 765px) {
@@ -988,7 +986,7 @@ body {
   }
 
   .section__safety_info {
-     padding: 6px 4px 6px 36px;
+    padding: 6px 4px 6px 36px;
     width: 86%;
     margin: 0 auto;
   }
@@ -1145,7 +1143,11 @@ body {
     display: none;
   }
 
-  .section__safety-ratig, .section__safety_order {
+  .section__safety-ratig {
+    display: none;
+  }
+
+  .section__safety_order {
     display: none;
   }
 
