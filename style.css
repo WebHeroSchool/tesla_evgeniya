@@ -286,12 +286,12 @@ body {
 
 .parametr__display_text-big {
   margin: 0;
-  padding: 0px 0 0 82px;
+  padding: 0 0 0 82px;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
-  color: #FFF;
+  color: #fff;
 }
 
 .parametr__display_text-norm {
@@ -312,8 +312,7 @@ body {
   font-weight: 700;
   font-size: 13px;
   line-height: 15px;
-  color: #FFF;
-  font-family: Montserrat;
+  color: #fff;
 }
 
 .parametr__wifi {
@@ -471,7 +470,7 @@ body {
   line-height: 36px;
   color: #fff;
   margin: 0;
-  padding: 13px 0 14px 0px;
+  padding: 13px 0 14px 0;
 }
 
 .section__safety_text {
@@ -488,7 +487,6 @@ body {
 .section__safety-ratig {
   margin: 0;
   padding: 55px 0 0 57px;
-
 }
 
 .section__safety-ratig_h5 {
@@ -501,7 +499,7 @@ body {
 }
 
 .section__safety-ratig_parametrs {
-  margin:0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   padding: 0 0 100px 0;
@@ -658,8 +656,6 @@ body {
   margin-top: 40px;
 }
 
-
-
 @media (max-width: 1023px) {
   .header__nav {
     display: none;
@@ -792,7 +788,7 @@ body {
     background-image: url(img/section_tesla_ip.svg);
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 526px
+    min-height: 526px;
   }
 
   .section__models {
@@ -979,7 +975,8 @@ body {
 }
 
 @media (max-width: 765px) {
-  .section__parametrs, .section__order {
+  .section__parametrs,
+  .section__order {
     display: none;
   }
 
@@ -1158,7 +1155,7 @@ body {
     min-height: 295px;
   }
 
-  .section__safety_star{
+  .section__safety_star {
     min-height: 607px;
     padding: 5px;
   }
@@ -1171,12 +1168,13 @@ body {
   }
 
   .section__safety_h4 {
-    padding: 6px 0 14px 0px;
+    padding: 6px 0 14px 0;
   }
 }
 
 @media (max-width: 713px) {
-   .section__safety-ratig, .section__safety_order {
+   .section__safety-ratig, 
+   .section__safety_order {
     display: none;
   }
 
