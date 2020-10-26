@@ -1175,8 +1175,7 @@ body {
 }
 
 @media (max-width: 713px) {
-
-   .section__safety-ratig {
+  .section__safety-ratig {
     display: none;
   }
 
