@@ -656,6 +656,12 @@ body {
   margin-top: 40px;
 }
 
+@media (max-width: 1405px) {
+  .section__img {
+    right: 0;
+  }
+}
+
 @media (max-width: 1023px) {
   .header__nav {
     display: none;
@@ -679,7 +685,7 @@ body {
   }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1225px) {
 
   .section__safety_s {
     display: flex;
