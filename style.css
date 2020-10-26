@@ -679,6 +679,83 @@ body {
   }
 }
 
+@media (max-width: 1025px) {
+
+  .section__safety_s {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .section__img {
+    background: url(img/tesla_s_ip.svg) 53% 71%, url(img/model_s_ip.svg) 54% 17%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 539px;
+    right: 0;
+  }
+
+  .section__safety_star {
+    max-width: 1200px;
+    min-height: 501px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 51px 0 0 0;
+  }
+
+  .section__safety_info {
+    padding: 0 67px 0 0;
+    width: 42%;
+  }
+
+  .section__safety-ratig {
+    padding: 13px 0 0 0;
+    width: 36%;
+    height: 56%;
+  }
+
+  .section__security {
+    display: none;
+  }
+
+  .section__safety_order {
+    width: 100%;
+    max-width: 483px;
+  }
+
+  .section__safety_text {
+    text-align: initial;
+  }
+
+  .section__safety-ratig-parametrs_v {
+    padding: 0 0 11px 0;
+  }
+
+  .section__safety_order-img {
+    background-image: url(img/infoip.jpg);
+    background-repeat: no-repeat;
+    width: 45%;
+    background-position: -12px 0;
+  }
+
+  .section__safety-ratig_parametrs {
+    padding: 0;
+  }
+
+  .section__safety_order-button {
+    margin: 0;
+    width: 46%;
+    height: 29%;
+    padding: 14px 2px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-transform: uppercase;
+  }
+ } 
+
 @media (max-width: 782px) {
   .header__logo {
     padding: 0 0 0 15px;
@@ -972,6 +1049,27 @@ body {
   }
 }
 
+@media (max-width: 811px) {
+  .section__safety_star {
+    max-width: 1200px;
+    min-height: 501px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 51px 0 0 0;
+  }
+
+  .section__safety_info {
+    padding: 0 67px 0 0;
+    width: 42%;
+ }
+
+ .section__safety-ratig {
+    width: 43%;
+ }
+}
+
 @media (max-width: 765px) {
   .section__parametrs,
   .section__order {
@@ -986,9 +1084,40 @@ body {
   }
 
   .section__safety_info {
-    padding: 6px 4px 6px 36px;
-    width: 86%;
-    margin: 0 auto;
+    padding: 0;
+    width: 77%;
+    margin: initial;
+    height: 48%;
+  }
+}
+
+@media (max-width: 710px) {
+  .section__img {
+    background: url(img/group_m.svg) 65% 63%, url(img/models_m.svg) 96% 22%;
+    background-repeat: no-repeat;
+    min-height: 390px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 587px;
+  }
+
+  .section__safety_s {
+    min-height: 500px;
+  }
+
+  .section {
+    max-height: 580px;
+  }
+}
+
+@media (max-width: 325px) {
+  .section__img {
+    background: url(img/group_m.svg) 56% 63%, url(img/models_m.svg) 10% 22%;
+    min-height: 299px;
   }
 }
 
@@ -1193,6 +1322,7 @@ body {
 
   .section__safety_star {
     padding: 12px 0 0 0;
+    min-height: 324px;
   }
 }
 
