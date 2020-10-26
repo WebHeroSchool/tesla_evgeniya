@@ -606,7 +606,7 @@ body {
   justify-content: center;
   width: 100%;
   max-height: 40px;
-  padding: 0 0 8px 0;
+  padding-bottom: 8px;
 }
 
 .security__text-big {
@@ -1175,8 +1175,12 @@ body {
 }
 
 @media (max-width: 713px) {
-   .section__safety-ratig, 
-   .section__safety_order {
+
+   .section__safety-ratig {
+    display: none;
+  }
+
+  .section__safety_order {
     display: none;
   }
 
