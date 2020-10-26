@@ -1172,6 +1172,18 @@ body {
   .section__safety_h4 {
     padding: 6px 0 14px 0;
   }
+
+  .section__safety_star {
+    min-height: 290px;
+  }
+
+  .section__safety {
+    min-height: 500px;
+  }
+
+  .section__safety_s {
+    min-height: 500px;
+  }
 }
 
 @media (max-width: 713px) {
